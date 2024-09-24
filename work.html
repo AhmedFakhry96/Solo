@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOLO</title>
+    <link rel="website icon" href="image/IMG_5870.jpg" type="image/x-icon" />
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        @media screen and (max-width: 950px) {
+            .displayW950 {
+                display: none;
+            }
+        }
+
+        .BackColorBlack {
+            background-color: rgb(0,0,0) !important;
+        }
+
+        .BackColorYellow {
+            background-color: rgb(242,183,019);
+            /*background-color: #F2B713;*/
+        }
+
+        .hi-slide{
+            position: relative;
+            width: 754px;
+            height: 292px;
+            border-radius: 50px;
+            margin: 115px auto 0;
+        }
+
+            .hi-slide .hi-next,
+            .hi-slide .hi-prev {
+                position: absolute;
+                top: 50%;
+                width: 40px;
+                height: 40px;
+                margin-top: -20px;
+                border-radius: 50px;
+                line-height: 40px;
+                text-align: center;
+                cursor: pointer;
+                background-color: white;
+                color: black;
+                transition: all 0.7s;
+                font-size: �20px;
+                font-weight: bold;
+            }
+
+                .hi-slide hi-next:hover,
+                .hi-slide .hi-prev:hover 
+                {
+                    opacity: 1;
+                    background-color: white;
+                }
+
+            .hi-slide .hi-prev
+            {
+                left: -60px;
+            }
+
+            .hi-slide .hi-prev::before
+            {
+            content: '<';
+            }
+
+        .hi-slide .hi-next
+        {
+            right: -60px;
+        }
+
+        .hi-slide .hi-next::before 
+        {
+            content: '>';
+        }
+
+        .hi-slide > ul{
+            list-style: none;
+            position: relative;
+            width: 754px;
+            height: 292px;
+            margin: 0;
+            padding: 0;
+        }
+
+            .hi-slide > ul > li 
+            {
+                overflow: hidden;
+                position: absolute;
+                z-index: 0;
+                left: 377px;
+                top: 147px;
+                width: 0;
+                height: 0;
+                margin: 0;
+                padding: 0;
+                border: 3px solid white;
+                cursor: pointer;
+                background-color: #333;
+            }
+                .hi-slide > ul > li > img 
+                {
+                    width: 100%;
+                    height: 100%;
+                    background-position: �center;
+                }
+    </style>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body class="BackColorBlack">
+    <div class="slide hi-slide">
+        <div class="hi-prev"></div>
+        <div class="hi-next"></div>
+        <ul>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0023.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0014.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0015.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0016.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0017.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0018.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0019.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0023.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0024.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0025.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0026.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0027.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0028.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0029.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0031.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0032.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0033.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0034.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0035.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0036.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0037.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0038.jpg" alt=""</li>
+            <li><img src="image/solo marketing portofolio Vol.1_page-0039.jpg" alt=""</li>
+        </ul>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/hislide/jquery.hislide.js"></script>
+    <script>
+        $('.slide').hiSlide();
+    </script>
+    
+
+</body>
+</html>
