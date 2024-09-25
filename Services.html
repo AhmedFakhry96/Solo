@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" >
 <head>
 
     <!--- basic page needs
@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOLO</title>
-    <link rel="website icon" href="image/IMG_5870.jpg" type="image/x-icon" />
+    <link rel="website icon" href="image/IMG_5870.jpg" type="image/x-icon"  />
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -42,95 +42,12 @@
             background-color: rgb(242,183,019);
             /*background-color: #F2B713;*/
         }
-
-        .hi-slide {
-            position: relative;
-            width: 754px;
-            height: 292px;
-            border-radius: 50px;
-            margin: 115px auto 0;
-        }
-
-            .hi-slide .hi-next,
-            .hi-slide .hi-prev {
-                position: absolute;
-                top: 50%;
-                width: 40px;
-                height: 40px;
-                margin-top: -20px;
-                border-radius: 50px;
-                line-height: 40px;
-                text-align: center;
-                cursor: pointer;
-                background-color: white;
-                color: black;
-                transition: all 0.7s;
-                font-size: �20px;
-                font-weight: bold;
-            }
-
-                .hi-slide hi-next:hover,
-                .hi-slide .hi-prev:hover {
-                    opacity: 1;
-                    background-color: white;
-                }
-
-            .hi-slide .hi-prev {
-                left: -60px;
-            }
-
-                .hi-slide .hi-prev::before {
-                    content: '<';
-                }
-
-            .hi-slide .hi-next {
-                right: -60px;
-            }
-
-                .hi-slide .hi-next::before {
-                    content: '>';
-                }
-
-            .hi-slide > ul {
-                list-style: none;
-                position: relative;
-                width: 754px;
-                height: 292px;
-                margin: 0;
-                padding: 0;
-            }
-
-                .hi-slide > ul > li {
-                    overflow: hidden;
-                    position: absolute;
-                    z-index: 0;
-                    left: 377px;
-                    top: 147px;
-                    width: 0;
-                    height: 0;
-                    margin: 0;
-                    padding: 0;
-                    border: 3px solid white;
-                    cursor: pointer;
-                    background-color: #333;
-                }
-
-                    .hi-slide > ul > li > img {
-                        width: 100%;
-                        height: 100%;
-                        background-position: �center;
-                    }
     </style>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 </head>
 
 
-
-<body id="top">
+<body id="top" >
 
 
     <!-- preloader
@@ -147,7 +64,7 @@
 
         <!-- # site header
     ================================================== -->
-        <header class="s-header" style="background-color:black ; margin-top:-2rem;">
+        <header class="s-header" style="background-color: black; margin-top: -2rem;">
 
             <div class="row s-header__inner">
 
@@ -202,45 +119,117 @@
         <!-- # site-content
     ================================================== -->
         <section id="content" class="s-content" style="margin-bottom:5rem">
-            <div class="" style=" margin-bottom:5rem">
-                <div class="slide hi-slide">
-                    <div class="hi-prev"></div>
-                    <div class="hi-next"></div>
-                    <ul>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0023.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0014.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0015.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0016.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0017.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0018.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0019.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0023.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0024.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0025.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0026.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0027.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0028.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0029.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0031.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0032.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0033.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0034.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0035.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0036.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0037.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0038.jpg" alt=""</li>
-                        <li><img src="image/solo marketing portofolio Vol.1_page-0039.jpg" alt=""</li>
-                    </ul>
 
-                </div>
-                <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-                <script src="js/hislide/jquery.hislide.js"></script>
-                <script>
-                    $('.slide').hiSlide();
-                </script>
+            <!-- services
+        ----------------------------------------------- -->
+            <section id="services" class="s-services target-section">
+
+                <div class="row section-header" data-num="02">
+                    <h3 class="column lg-12 section-header__pretitle text-pretitle">What We Do</h3>
+                    <div class="column lg-6 stack-on-1100 section-header__primary">
+                        <h2 class="title text-display-1">
+                            Our services  are tailored to make your business grow and stand out.
+                        </h2>
+                    </div>
+
+                </div> <!-- end section-header -->
+
+                <div class="row services-list list-block block-lg-one-half block-tab-whole">
+
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z"></path></svg>
+                            </div>
+                            <h3 class="h5">Data</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                Do buzzwords like data-driven approach, user-centric thinking, digital transformation, attribution modeling, and automation also make you nervous? All of these fancy terms essentially convey the same message: think objectively and smartly about the data you have .
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
+
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m21.406 6.086-9-4a1.001 1.001 0 0 0-.813 0l-9 4c-.02.009-.034.024-.054.035-.028.014-.058.023-.084.04-.022.015-.039.034-.06.05a.87.87 0 0 0-.19.194c-.02.028-.041.053-.059.081a1.119 1.119 0 0 0-.076.165c-.009.027-.023.052-.031.079A1.013 1.013 0 0 0 2 7v10c0 .396.232.753.594.914l9 4c.13.058.268.086.406.086a.997.997 0 0 0 .402-.096l.004.01 9-4A.999.999 0 0 0 22 17V7a.999.999 0 0 0-.594-.914zM12 4.095 18.538 7 12 9.905l-1.308-.581L5.463 7 12 4.095zM4 16.351V8.539l7 3.111v7.811l-7-3.11zm9 3.11V11.65l7-3.111v7.812l-7 3.11z"></path></svg>
+                            </div>
+                            <h3 class="h5">Strategy</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                A good start is half the battle. And in digital marketing, a good start is having a clear-cut strategy. What do you want to achieve and, more importantly, how do you know if you are doing well? We establish measurable objectives and key results. Key results are measurable and transparent objectives that contribute directly to the predefined goals .
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
+
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M6 14c-2.206 0-4 1.794-4 4s1.794 4 4 4a4.003 4.003 0 0 0 3.998-3.98H10V16h4v2.039h.004A4.002 4.002 0 0 0 18 22c2.206 0 4-1.794 4-4s-1.794-4-4-4h-2v-4h2c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4v2h-4V5.98h-.002A4.003 4.003 0 0 0 6 2C3.794 2 2 3.794 2 6s1.794 4 4 4h2v4H6zm2 4c0 1.122-.879 2-2 2s-2-.878-2-2 .879-2 2-2h2v2zm10-2c1.121 0 2 .878 2 2s-.879 2-2 2-2-.878-2-2v-2h2zM16 6c0-1.122.879-2 2-2s2 .878 2 2-.879 2-2 2h-2V6zM6 8c-1.121 0-2-.878-2-2s.879-2 2-2 2 .878 2 2v2H6zm4 2h4v4h-4v-4z"></path></svg>
+                            </div>
+                            <h3 class="h5">Performance</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                Having a strategy is one thing, implementing it is another. With WAD you can count on a team of experts that knows how to get things done. WAD is recognized as a Premier Google Partner and belongs to the top 150 of the 4000 Google Partners in EMEA. The benefits? Our lients profit from the latest solutions, workshops, and tailored coaching, both nationally and internationally .
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
+
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 3H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h4l-1.8 2.4 1.6 1.2 2.7-3.6h3l2.7 3.6 1.6-1.2L16 18h4c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM4 16V5h16l.001 11H4z"></path><path d="M6 12h4v2H6z"></path></svg>
+                            </div>
+                            <h3 class="h5">Inbound marketing</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                You can, of course, spend thousands of euros, dollars, or whatever currency you have on advertisements. But at We Are Digital, we think: “owned first”. By making sure that your website and landing pages are on point, and by assuring your database and inbound
+                                marketing are all set and ready, you guarantee qualitative leads .
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            </div>
+                            <h3 class="h5">E-Commerce</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                Quos numquam et ea. Non fuga quidem pariatur. Repellendus doloremque unde modi aut.
+                                Quo cumque porro eum saepe quibusdam odit eligendi. Doloribus qui sit repellendus cupiditate.
+                                Sed porro magnam dignissimos et facilis animi quis tempora. Rerum cum molestiae.
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
 
 
-            </div>
+                    <div class="column list-block__item">
+                        <div class="list-block__title">
+                            <div class="list-block__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 6c0-1.654-1.346-3-3-3a2.993 2.993 0 0 0-2.815 2h-6.37A2.993 2.993 0 0 0 6 3C4.346 3 3 4.346 3 6c0 1.302.839 2.401 2 2.815v6.369A2.997 2.997 0 0 0 3 18c0 1.654 1.346 3 3 3a2.993 2.993 0 0 0 2.815-2h6.369a2.994 2.994 0 0 0 2.815 2c1.654 0 3-1.346 3-3a2.997 2.997 0 0 0-2-2.816V8.816A2.996 2.996 0 0 0 21 6zm-3-1a1.001 1.001 0 1 1-1 1c0-.551.448-1 1-1zm-2.815 12h-6.37A2.99 2.99 0 0 0 7 15.184V8.816A2.99 2.99 0 0 0 8.815 7h6.369A2.99 2.99 0 0 0 17 8.815v6.369A2.99 2.99 0 0 0 15.185 17zM6 5a1.001 1.001 0 1 1-1 1c0-.551.448-1 1-1zm0 14a1.001 1.001 0 0 1 0-2 1.001 1.001 0 0 1 0 2zm12 0a1.001 1.001 0 0 1 0-2 1.001 1.001 0 0 1 0 2z"></path></svg>
+                            </div>
+                            <h3 class="h5">Illustration</h3>
+                        </div>
+                        <div class="list-block__text">
+                            <p>
+                                Quasi in nulla maiores minus cupiditate tenetur ut officia sint. Quis consequatur
+                                officiis dolor nulla fuga itaque cum aut. Ut ut quis omnis dolor. Qui modi voluptatem eum.
+                                Minus numquam consequatur incidunt vel maiores nostrum. Commodi dignissimos sed
+                                laudantium aliquam tempora.
+                            </p>
+                        </div>
+                    </div> <!-- end list-block__item -->
+
+                </div> <!-- end process-list -->
+
+            </section> <!-- end s-services -->
+
         </section>  <!-- end content -->
         <!-- # site-footer
     ================================================== -->
@@ -294,5 +283,4 @@
     <script src="js/main.js"></script>
 
 </body>
-
 </html>
