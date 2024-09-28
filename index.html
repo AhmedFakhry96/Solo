@@ -45,7 +45,29 @@
         .colorYellow {
              color: rgb(242,183,019)
         }
-        
+        .backgroungWhite {
+            color: white;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; /* Adjusts the spacing between the pictures */
+            gap: 10px; /* Optional: space between images */
+        }
+
+        .gallery-item {
+            flex: 1 1 calc(25% - 10px); /* 25% width for 4 images in a row, subtracting gap */
+            box-sizing: border-box; /* Ensure padding/margin doesn't affect the width */
+        }
+
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+
     </style>
 
 </head>
@@ -362,20 +384,18 @@
 
             <!-- portfolio
     ----------------------------------------------- -->
-            <section id="folio" class="s-folio target-section BackColorBlack">
+            <section id="folio" class="s-folio target-section"  BackColorBlack >
 
                 <div class="row section-header light-on-dark" data-num="03">
                     <h3 class="column lg-12 section-header__pretitle text-pretitle">Recent Works</h3>
                     <div class="column lg-6 stack-on-1100 section-header__primary">
-                        <h2 class="title text-display-1">
+                        <h2 class="title text-display-1" style="color:black">
                             Here are some of our favorite projects we have done lately. Feel free to check them out.
                         </h2>
                     </div>
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
                         <p class="desc">
-                            Quia iusto totam facilis ut atque quidem quis maiores iure.
-                            Facilis mollitia enim illo sed et totam commodi. Velit a
-                            recusandae sequi consequatur est dolorum eaque.
+                            At SOLO, we craft tailored marketing strategies that drive growth, enhance brand visibility, and connect your business with the right audience across digital and traditional platforms.
                         </p>
                     </div>
                 </div> <!-- end section-header -->
@@ -638,46 +658,46 @@
                             </div>
                         </div> <!-- end section-header -->
 
-                        <div class="row clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
+                        <div  class="row clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
 
-                            <div class="column clients-list__item">
+                            <div class="column clients-list__item" >
                                 <a href="#0">
-                                    <img src="images/clients/snowflake.svg" alt="">
+                                    <img src="image/Asset 1xxxhdpi.png" alt="">
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/flash.svg" alt="">
+                                    <img src="image/Asset 16xxxhdpi.png" alt="" >
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/rise.svg" alt="">
+                                    <img src="image/Asset 17xxxhdpi.png" alt="">
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/pinpoint.svg" alt="">
+                                    <img src="image/Asset 18xxxhdpi.png" alt="" >
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/proline.svg" alt="">
+                                    <img src="image/photo33.png" alt="" >
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/vision.svg" alt="">
+                                    <img src="image/NEW TIRC.psdxxxhdpi.png" alt="" >
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/volume.svg" alt="">
+                                    <img src="image/Asset 10xxxhdpi.png" alt="">
                                 </a>
                             </div>
                             <div class="column clients-list__item">
                                 <a href="#0">
-                                    <img src="images/clients/hitech.svg" alt="">
+                                    <img src="image/Asset 9xxxhdpi.png" alt="">
                                 </a>
                             </div>
 
