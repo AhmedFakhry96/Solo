@@ -3873,7 +3873,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-folio {
-    background-color : var(--color-gray-19);
+    background-color : white;
     padding-top      : var(--vspace-5);
     padding-bottom   : var(--vspace-5);
 }
@@ -4213,7 +4213,7 @@ img.u-pull-left {
 .clients-list__item img {
     margin     : 0;
     transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    opacity    : .5;
+    opacity    : 1;
 }
 
 .clients-list__item:nth-child(n) {
